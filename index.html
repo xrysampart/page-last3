@@ -1280,32 +1280,32 @@ I[0]=new Array();I[0][0]=100;
 I[0][1]='';
 I[0][2]='0';
 I[0][3]=new Array();
-I[0][3][0]=new Array('<font size="4px"> - Yes, I am.</font>','',0,0,1);
-I[0][3][1]=new Array('<font size="4px" > - No, I\'m not.</font>','',1,100,1);
+I[0][3][0]=new Array('<font size="4px">Yes, I am.</font>','',0,0,1);
+I[0][3][1]=new Array('<font size="4px" >No, I\'m not.</font>','',1,100,1);
 I[1]=new Array();I[1][0]=100;
 I[1][1]='';
 I[1][2]='0';
 I[1][3]=new Array();
-I[1][3][0]=new Array('<font size="4px">- Yes, she is.</font>','',1,100,1);
-I[1][3][1]=new Array('<font size="4px">- No, she isn\'t.</font>','',0,0,1);
+I[1][3][0]=new Array('<font size="4px">Yes, she is.</font>','',1,100,1);
+I[1][3][1]=new Array('<font size="4px">No, she isn\'t.</font>','',0,0,1);
 I[2]=new Array();I[2][0]=100;
 I[2][1]='';
 I[2][2]='0';
 I[2][3]=new Array();
-I[2][3][0]=new Array('<font size="4px">- Yes, we are.</font>','',0,0,1);
-I[2][3][1]=new Array('<font size="4px">- No, we aren\'t</font>','',1,100,1);
+I[2][3][0]=new Array('<font size="4px">Yes, we are.</font>','',0,0,1);
+I[2][3][1]=new Array('<font size="4px">No, we aren\'t</font>','',1,100,1);
 I[3]=new Array();I[3][0]=100;
 I[3][1]='';
 I[3][2]='0';
 I[3][3]=new Array();
-I[3][3][0]=new Array('<font size="4px">- Yes, it is.</font>','',0,0,1);
-I[3][3][1]=new Array('<font size="4px">- No, it isn\'t</font>','',1,100,1);
+I[3][3][0]=new Array('<font size="4px">Yes, it is.</font>','',0,0,1);
+I[3][3][1]=new Array('<font size="4px">No, it isn\'t</font>','',1,100,1);
 I[4]=new Array();I[4][0]=100;
 I[4][1]='';
 I[4][2]='0';
 I[4][3]=new Array();
-I[4][3][0]=new Array('<font size="4px">- Yes, they are.</font>','',1,100,1);
-I[4][3][1]=new Array('<font size="4px">- No, they aren\'t</font>','',0,0,1);
+I[4][3][0]=new Array('<font size="4px">Yes, they are.</font>','',1,100,1);
+I[4][3][1]=new Array('<font size="4px">No, they aren\'t</font>','',0,0,1);
 
 
 function StartUp(){
@@ -1324,7 +1324,7 @@ function StartUp(){
 
 	
 
-	PreloadImages('img//cold.jpg','img//kitchen.jpg','img//children.jpg','img//lion.jpg','img//team.jpg');
+	PreloadImages('img/cold.jpg','img/kitchen.jpg','img/children.jpg','img/lion.jpg','img/team.jpg');
 
 	
 	CompleteEmptyFeedback();
@@ -1739,11 +1739,11 @@ function CheckFinished(){
 </div>
  
 <ol class="QuizQuestions" id="Questions">
-<li class="QuizQuestion" id="Q_0" style="display: none;"><div class="QuestionText"><img src="img//cold.jpg" alt="cold.jpg" title="cold" width="140" height="140"></img><br /><p><br /><font size="4px"> - Are you hot?</font></div><ol class="MCAnswers"><li id="Q_0_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_0_0_Btn" onclick="CheckMCAnswer(0,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px"> - Yes, I am.</font></li><li id="Q_0_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_0_1_Btn" onclick="CheckMCAnswer(0,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px" > - No, I'm not.</font></li></ol></li>
-<li class="QuizQuestion" id="Q_1" style="display: none;"><div class="QuestionText"><img src="img//kitchen.jpg" alt="kitchen.jpg" title="kitchen" width="160" height="160"></img><br /><p><br /><font size="4px">- Is she in the kitchen?</font></div><ol class="MCAnswers"><li id="Q_1_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_1_0_Btn" onclick="CheckMCAnswer(1,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- Yes, she is.</font></li><li id="Q_1_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_1_1_Btn" onclick="CheckMCAnswer(1,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- No, she isn't.</font></li></ol></li>
-<li class="QuizQuestion" id="Q_2" style="display: none;"><div class="QuestionText"><img src="img//children.jpg" alt="children.jpg" title="children" width="160" height="160"></img><br /><p><br /><font size="4px">- Are you sad, children?</font></div><ol class="MCAnswers"><li id="Q_2_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_2_0_Btn" onclick="CheckMCAnswer(2,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- Yes, we are.</font></li><li id="Q_2_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_2_1_Btn" onclick="CheckMCAnswer(2,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- No, we aren't</font></li></ol></li>
-<li class="QuizQuestion" id="Q_3" style="display: none;"><div class="QuestionText"><img src="img//lion.jpg" alt="lion.jpg" title="lion" width="160" height="160"></img><br /><p><br /><font size="4px">- Is it a camel?</font></div><ol class="MCAnswers"><li id="Q_3_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_3_0_Btn" onclick="CheckMCAnswer(3,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- Yes, it is.</font></li><li id="Q_3_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_3_1_Btn" onclick="CheckMCAnswer(3,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- No, it isn't</font></li></ol></li>
-<li class="QuizQuestion" id="Q_4" style="display: none;"><div class="QuestionText"><img src="img//team.jpg" alt="team.jpg" title="team" width="160" height="160"></img><br /><p><br /><font size="4px">- Are they a team?</font></div><ol class="MCAnswers"><li id="Q_4_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_4_0_Btn" onclick="CheckMCAnswer(4,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- Yes, they are.</font></li><li id="Q_4_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_4_1_Btn" onclick="CheckMCAnswer(4,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">- No, they aren't</font></li></ol></li></ol>
+<li class="QuizQuestion" id="Q_0" style="display: none;"><div class="QuestionText"><img src="img/cold.jpg" alt="cold.jpg" title="cold" width="140" height="140"></img><br /><p><br /><font size="4px"><b> Are you hot?</b></font></div><ol class="MCAnswers"><li id="Q_0_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_0_0_Btn" onclick="CheckMCAnswer(0,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">Yes, I am.</font></li><li id="Q_0_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_0_1_Btn" onclick="CheckMCAnswer(0,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px" >No, I'm not.</font></li></ol></li>
+<li class="QuizQuestion" id="Q_1" style="display: none;"><div class="QuestionText"><img src="img/kitchen.jpg" alt="kitchen.jpg" title="kitchen" width="160" height="160"></img><br /><p><br /><font size="4px"><b>Is she in the kitchen?</b></font></div><ol class="MCAnswers"><li id="Q_1_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_1_0_Btn" onclick="CheckMCAnswer(1,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">Yes, she is.</font></li><li id="Q_1_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_1_1_Btn" onclick="CheckMCAnswer(1,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">No, she isn't.</font></li></ol></li>
+<li class="QuizQuestion" id="Q_2" style="display: none;"><div class="QuestionText"><img src="img/children.jpg" alt="children.jpg" title="children" width="160" height="160"></img><br /><p><br /><font size="4px"><b>Are you sad, children?</b></font></div><ol class="MCAnswers"><li id="Q_2_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_2_0_Btn" onclick="CheckMCAnswer(2,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">Yes, we are.</font></li><li id="Q_2_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_2_1_Btn" onclick="CheckMCAnswer(2,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">No, we aren't</font></li></ol></li>
+<li class="QuizQuestion" id="Q_3" style="display: none;"><div class="QuestionText"><img src="img/lion.jpg" alt="lion.jpg" title="lion" width="160" height="160"></img><br /><p><br /><font size="4px"><b>Is it a camel?</b></font></div><ol class="MCAnswers"><li id="Q_3_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_3_0_Btn" onclick="CheckMCAnswer(3,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">Yes, it is.</font></li><li id="Q_3_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_3_1_Btn" onclick="CheckMCAnswer(3,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">No, it isn't</font></li></ol></li>
+<li class="QuizQuestion" id="Q_4" style="display: none;"><div class="QuestionText"><img src="img/team.jpg" alt="team.jpg" title="team" width="160" height="160"></img><br /><p><br /><font size="4px"><b>Are they a team?</b></font></div><ol class="MCAnswers"><li id="Q_4_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_4_0_Btn" onclick="CheckMCAnswer(4,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">Yes, they are.</font></li><li id="Q_4_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_4_1_Btn" onclick="CheckMCAnswer(4,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;<font size="4px">No, they aren't</font></li></ol></li></ol>
 
 
 
